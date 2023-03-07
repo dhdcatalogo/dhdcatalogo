@@ -1,0 +1,74 @@
+
+.section-pro{
+    display: grid;
+    margin: 2rem 5rem;
+    justify-items: center;
+}
+
+.contenedor-detalles{
+    width: 100%;
+    
+}
+
+.detalle{
+    align-items: center;
+    justify-self: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.datos{
+    display: flex;
+}
+
+.talla{
+    background-color: black;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    max-width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10rem;
+}
+
+.precio{
+    background-color: black;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+    max-width: fit-content;
+    margin: 0 1rem;
+    padding: 5px 15px;
+    border-radius: 10rem;
+}
+
+
+
+
+.contenedor-pro{
+    margin: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1rem;
+}
+
+.img-pro{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+@media (max-width: 550px){
+    .section-pro{
+        margin: 1rem;
+    }
+
+    .detalle{
+        font-size: large;
+    }
+    .contenedor-pro{
+        margin: 0 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
