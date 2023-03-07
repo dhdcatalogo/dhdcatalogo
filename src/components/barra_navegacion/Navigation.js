@@ -7,7 +7,7 @@ export default class Navigation extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
         <div className="container">
-          <Link className="navbar-brand" to='/'>
+          <Link className="navbar-brand" to='/dhdcatalogo'>
             <img src="https://i.ibb.co/NYSzVtS/logo.png" className="d-inline-block align-middle" alt="Logo Marca" />
             DHD Catálogo
           </Link>
@@ -17,13 +17,13 @@ export default class Navigation extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link active text-center" aria-current="page" to='/ropa'>👕 Ropa</Link>
+                <Link className="nav-link active text-center" aria-current="page" to='/dhdcatalogo/ropa'>👕 Ropa</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active text-center" aria-current="page" to='/electronicos'>🎛️ Electronicos</Link>
+                <Link className="nav-link active text-center" aria-current="page" to='/dhdcatalogo/electronicos'>🎛️ Electronicos</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active text-center" aria-current="page" to='/otros'>📦 Otros</Link>
+                <Link className="nav-link active text-center" aria-current="page" to='/dhdcatalogo/otros'>📦 Otros</Link>
               </li>
             </ul>
           </div>

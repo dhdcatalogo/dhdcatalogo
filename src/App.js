@@ -26,13 +26,13 @@ function App() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/dhdcatalogo" element={<Home/>}/>
 
-        <Route path="/ropa" element={<Ropa />} />
-        <><Route path="/ropa/:marca" element={<Catalogo/>}/></>
-        <><Route path="/ropa/:marca/:producto" element={<Producto/>}/></>
-        <Route path="/electronicos" element={<Electronicos />} />
-        <Route path="/otros" element={<Otros />} />
+        <Route path="/dhdcatalogo/ropa" element={<Ropa />} />
+        <><Route path="/dhdcatalogo/ropa/:marca" element={<Catalogo/>}/></>
+        <><Route path="/dhdcatalogo/ropa/:marca/:producto" element={<Producto/>}/></>
+        <Route path="/dhdcatalogo/electronicos" element={<Electronicos />} />
+        <Route path="/dhdcatalogo/otros" element={<Otros />} />
       </Routes>
     </BrowserRouter>
   );

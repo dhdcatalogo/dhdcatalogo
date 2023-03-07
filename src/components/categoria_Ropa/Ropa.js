@@ -26,7 +26,7 @@ function Marcas() {
 }
 
 function Marca(props) {
-  const ruta = '/ropa/' + props.ruta;
+  const ruta = '/dhdcatalogo/ropa/' + props.ruta;
   //
   return (
     <div className="col-5 col-md-3 col-lg-2 m-2">

@@ -6,7 +6,7 @@ export default function Home() {
         <div className="container mt-3 ">
             <div className="row">
                 <div className='col-12'>
-                    <Link className='link-home' to="/ropa">
+                    <Link className='link-home' to="/dhdcatalogo/ropa">
                         <div className='title'>👚 👕 Ropa 👕 👚</div>
                         <div className='row ms-3 mb-3'>
                             <div className='col-4 title-s'>SHEIN</div>
@@ -17,7 +17,7 @@ export default function Home() {
                     </Link>
                 </div>
                 <div className='col-12'>
-                    <Link className='link-home' to="/electronicos">
+                    <Link className='link-home' to="/dhdcatalogo/electronicos">
                         <div className='title'>📱 💻 Electrónicos 💻 📱</div>
                         <div className='row ms-3 mb-3'>
                             <div className='col-4 title-s'>APPLE</div>
@@ -28,7 +28,7 @@ export default function Home() {
                     </Link>
                 </div>
                 <div className='col-12'>
-                    <Link className='link-home' to="/otros">
+                    <Link className='link-home' to="/dhdcatalogo/otros">
                         <div className='title'>👟 📦 Otros 📦 👟</div>
                         <div className='row ms-3'>
                             <div className='col-4 title-s'>ALPINE START</div>

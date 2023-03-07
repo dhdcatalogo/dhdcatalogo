@@ -7,7 +7,7 @@ export const marcas_data = [
             {
                 id: 'rop1',
                 categoria: 'Ropa',
-                imagen: 'https://i.ibb.co/5Rd1C25/img13.jpg',
+                imagen: 'https://i.ibb.co/gdgbkWs/rop1-red-1.jpg',
                 detalle: 'Abrigo con botón de cuello V.',
                 talla: 'S',
                 precio: '260',
