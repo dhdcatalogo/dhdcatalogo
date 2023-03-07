@@ -704,40 +704,94 @@ export const marcas_data = [
             },
         ]
     },
-    /*{
+    {
         id: 2,
         nombre: 'justice',
         linkImagen: 'https://i.ibb.co/YjRds6M/icon-marca2.png',
         lista: [
-            { id: 1, imagen: 'https://i.ibb.co/cxPrnwk/jus01.jpg', detalle: 'Camiseta gráfica con lazo al frente y lazo para el cabello', precio: '100' },
-            { id: 2, imagen: 'https://i.ibb.co/6FXCFR6/jus02.jpg', detalle: 'Camiseta gráfica cruzada al frente', precio: '102' },
-            { id: 3, imagen: 'https://i.ibb.co/PFcXb64/jus03.jpg', detalle: 'Camiseta con cuello redondo y teñido anudado', precio: '104' },
-            /*{ id: 4, imagen: '', detalle: 'Camiseta gráfica con lazo al frente y lazo para el cabello', precio: '106' },
-            { id: 5, imagen: '', detalle: 'Camiseta de cuello redondo con bloques de color', precio: '107' },
-            { id: 6, imagen: '', detalle: 'Camiseta con cuello redondo y teñido anudado', precio: '110' },
-            { id: 7, imagen: '', detalle: 'Camiseta de cuello redondo con bloques de color', precio: '112' },
-            { id: 8, imagen: '', detalle: 'Camiseta estampada de manga corta', precio: '114' },
-            { id: 9, imagen: '', detalle: 'Camiseta estampada con cuello redondo', precio: '115' },
-            { id: 10, imagen: '', detalle: 'Camiseta gráfica con lazo al frente y lazo para el cabello', precio: '116' },
-            { id: 11, imagen: '', detalle: 'Camiseta gráfica cruzada al frente', precio: '117' },
-            { id: 12, imagen: '', detalle: 'Camiseta deportiva con gráfico Ringer', precio: '118' },
-            { id: 13, imagen: '', detalle: 'Camiseta sin mangas a capas con gráfico de Collection X by Justice', precio: '120' },
-            { id: 14, imagen: '', detalle: 'Camiseta sin mangas J Sport Graphic a capas Blanco', precio: '121' },
-            { id: 15, imagen: '', detalle: 'Camiseta sin mangas J Sport Graphic a capas Plomo', precio: '124' },
-            { id: 16, imagen: '', detalle: 'Camiseta sin mangas J Sport Graphic a capas Gris', precio: '126' },
-            { id: 17, imagen: '', detalle: 'Leggings de largo completo con gráficos deportivos', precio: '127' },
-            { id: 18, imagen: '', detalle: 'Leggings largos con logotipo de Justice', precio: '128' },
-            { id: 19, imagen: '', detalle: 'Leggings largos estampados', precio: '129' },
-            { id: 20, imagen: '', detalle: 'Leggings de largo completo con corte entrecruzado', precio: '130' },
-            { id: 21, imagen: '', detalle: 'Leggings largos con costuras en bloque de color', precio: '132' },
-            { id: 22, imagen: '', detalle: 'Leggings largos estampados camuflado Gris', precio: '135' },
-            { id: 23, imagen: '', detalle: 'Leggings largos estampados camuflado Verde', precio: '136' },
-            { id: 24, imagen: '', detalle: 'Leggings largos estampados camuflado Multicolor', precio: '137' },
-            { id: 25, imagen: '', detalle: 'Leggings cortos recortados Gris', precio: '138' },
-            { id: 26, imagen: '', detalle: 'Leggings de cuerpo entero con bloques de colores brillantes', precio: '140' }
-        ]
+            {
+                id: 'cam1',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/RpQhP5q/jus01-red-1.jpg',
+                detalle: 'Camiseta gráfica con lazo al frente y lazo para el cabello',
+                talla: 'S (7/8) - M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/RpQhP5q/jus01-red-1.jpg',
+                    'https://i.ibb.co/Db4b2bx/jus01-red-2.jpg',
+                    'https://i.ibb.co/TDfvZHL/jus01-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/HqDdVrp/jus01-ori-1.jpg',
+                    'https://i.ibb.co/4Vc90vH/jus01-ori-2.jpg',
+                    'https://i.ibb.co/B6GHCL9/jus01-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam2',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/ZdBcYj5/jus02-red-1.jpg',
+                detalle: 'Camiseta gráfica cruzada al frente',
+                talla: 'M (10) - L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/ZdBcYj5/jus02-red-1.jpg',
+                    'https://i.ibb.co/mR30LLC/jus02-red-2.jpg',
+                    'https://i.ibb.co/NYfFqCv/jus02-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/c8M7BtP/jus02-ori-1.jpg',
+                    'https://i.ibb.co/pRChKYf/jus02-ori-2.jpg',
+                    'https://i.ibb.co/vxrYpDn/jus02-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam3',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/1rmhNL7/jus03-red-1.jpg',
+                detalle: 'Camiseta con cuello redondo y teñido anudado',
+                talla: 'S (7/8) - M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/1rmhNL7/jus03-red-1.jpg',
+                    'https://i.ibb.co/B3qQHTb/jus03-red-2.jpg',
+                    'https://i.ibb.co/vxtt5Mm/jus03-red-3.jpg',
+                    'https://i.ibb.co/jw1qcCG/jus03-red-4.jpg',
+                    'https://i.ibb.co/ZB6gmY8/jus03-red-5.jpg',
+                    'https://i.ibb.co/cJxtgr1/jus03-red-6.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/h1K6fhg/jus03-ori-1.jpg',
+                    'https://i.ibb.co/Cvjbczg/jus03-ori-2.jpg',
+                    'https://i.ibb.co/smFt61C/jus03-ori-3.jpg',
+                    'https://i.ibb.co/D4BR4f1/jus03-ori-4.jpg',
+                    'https://i.ibb.co/pWMR64g/jus03-ori-5.jpg',
+                    'https://i.ibb.co/HFhbGQt/jus03-ori-6.jpg'
+                ]
+            },
+            {
+                id: 'cam4',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/DDyDTKN/jus04-red-1.jpg',
+                detalle: 'Camiseta gráfica con lazo al frente y lazo para el cabello',
+                talla: 'M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/DDyDTKN/jus04-red-1.jpg',
+                    'https://i.ibb.co/8Br0nx5/jus04-red-2.jpg',
+                    'https://i.ibb.co/25ZTNbc/jus04-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/FW8F3Vm/jus04-ori-1.jpg',
+                    'https://i.ibb.co/VT3BrQd/jus04-ori-2.jpg',
+                    'https://i.ibb.co/yhzgbQk/jus04-ori-3.jpg'
+                ]
+            },
 
+
+        ]
     },
+    /*
     { id: 3, nombre: 'aeropostable', linkImagen: 'https://i.ibb.co/25R7y7n/icon-marca3.png', lista: [] },
     { id: 4, nombre: 'amazon_essentials', linkImagen: 'https://i.ibb.co/XsjnhDZ/icon-marca4.png', lista: [] },
     { id: 5, nombre: 'cat_and_jack', linkImagen: 'https://i.ibb.co/P9trrjP/icon-marca5.png', lista: [] },
