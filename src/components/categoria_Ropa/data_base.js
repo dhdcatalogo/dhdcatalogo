@@ -704,7 +704,7 @@ export const marcas_data = [
             },
         ]
     },
-    {
+    /*{
         id: 2,
         nombre: 'justice',
         linkImagen: 'https://i.ibb.co/YjRds6M/icon-marca2.png',
@@ -734,7 +734,7 @@ export const marcas_data = [
             { id: 23, imagen: '', detalle: 'Leggings largos estampados camuflado Verde', precio: '136' },
             { id: 24, imagen: '', detalle: 'Leggings largos estampados camuflado Multicolor', precio: '137' },
             { id: 25, imagen: '', detalle: 'Leggings cortos recortados Gris', precio: '138' },
-            { id: 26, imagen: '', detalle: 'Leggings de cuerpo entero con bloques de colores brillantes', precio: '140' }*/
+            { id: 26, imagen: '', detalle: 'Leggings de cuerpo entero con bloques de colores brillantes', precio: '140' }
         ]
 
     },
@@ -744,6 +744,6 @@ export const marcas_data = [
     { id: 6, nombre: 'marrie_for_you', linkImagen: 'https://i.ibb.co/zFLdcdK/icon-marca6.png', lista: [] },
     { id: 7, nombre: 'old_navy', linkImagen: 'https://i.ibb.co/7GnYM40/icon-marca7.png', lista: [] },
     { id: 8, nombre: 'tommy_hilfiger', linkImagen: 'https://i.ibb.co/wyHp3LN/icon-marca8.png', lista: [] }
-
+*/
 
 ];

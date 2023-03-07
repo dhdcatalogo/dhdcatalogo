@@ -1,6 +1,6 @@
 
 //IMPORT 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 // BOOTSTRAP
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,18 +23,18 @@ import Otros from "./components/categoria_otros/Otros";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navigation />
       <Routes>
-        <Route path="/dhdcatalogo" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
 
-        <Route path="/dhdcatalogo/ropa" element={<Ropa />} />
-        <><Route path="/dhdcatalogo/ropa/:marca" element={<Catalogo/>}/></>
-        <><Route path="/dhdcatalogo/ropa/:marca/:producto" element={<Producto/>}/></>
-        <Route path="/dhdcatalogo/electronicos" element={<Electronicos />} />
-        <Route path="/dhdcatalogo/otros" element={<Otros />} />
+        <Route path="/ropa" element={<Ropa />} />
+        <><Route path="/ropa/:marca" element={<Catalogo/>}/></>
+        <><Route path="/ropa/:marca/:producto" element={<Producto/>}/></>
+        <Route path="/electronicos" element={<Electronicos />} />
+        <Route path="/otros" element={<Otros />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

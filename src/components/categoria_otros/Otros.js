@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 export default class Otros extends Component {
   render() {
     return (
-      <h1>Otros</h1>
+      <div className="container mt-5 text-center">
+        <h1>Muy pronto</h1>
+      </div>
     );
   }
 }
