@@ -69,28 +69,6 @@ export const marcas_data = [
                 ]
             },
             {
-                id: 'rop4',
-                categoria: 'Ropa',
-                imagen: 'https://i.ibb.co/K7YxYk1/rop4-red-1.jpg',
-                detalle: 'Camis Encaje en contraste Liso Bohemio.',
-                talla: 'S',
-                precio: '110',
-                dataimgred: [
-                    'https://i.ibb.co/K7YxYk1/rop4-red-1.jpg',
-                    'https://i.ibb.co/fM8K13b/rop4-red-2.jpg',
-                    'https://i.ibb.co/YyXRMFB/rop4-red-3.jpg',
-                    'https://i.ibb.co/QbstBPB/rop4-red-4.jpg',
-                    'https://i.ibb.co/gZV2FVK/rop4-red-5.jpg'
-                ],
-                dataimgori: [
-                    'https://i.ibb.co/M8yz6mP/rop4-ori-1.jpg',
-                    'https://i.ibb.co/CQnXHDD/rop4-ori-2.jpg',
-                    'https://i.ibb.co/pKstp5Y/rop4-ori-3.jpg',
-                    'https://i.ibb.co/7tR4PHG/rop4-ori-4.jpg',
-                    'https://i.ibb.co/zZrVpFB/rop4-ori-5.jpg'
-                ]
-            },
-            {
                 id: 'rop5',
                 categoria: 'Ropa',
                 imagen: 'https://i.ibb.co/Lt1r13f/rop5-red-1.jpg',
@@ -229,29 +207,6 @@ export const marcas_data = [
                     'https://i.ibb.co/p07kBrH/rop10-ori-4.jpg',
                     'https://i.ibb.co/5jY2qRg/rop10-ori-5.jpg',
                     'https://i.ibb.co/YLpnv4H/rop10-ori-6.jpg'
-                ]
-            },
-            {
-                id: 'rop11',
-                categoria: 'Ropa',
-                imagen: 'https://i.ibb.co/SRLMPXx/rop11-red-1.jpg',
-                detalle: 'Top de concha con botón de canesú de encaje de guipur.',
-                talla: 'S',
-                precio: '130',
-                dataimgred: [
-                    'https://i.ibb.co/SRLMPXx/rop11-red-1.jpg',
-                    'https://i.ibb.co/tPY51wt/rop11-red-2.jpg',
-                    'https://i.ibb.co/9gBtwmm/rop11-red-3.jpg',
-                    'https://i.ibb.co/F0nCM94/rop11-red-4.jpg',
-                    'https://i.ibb.co/PwCB45g/rop11-red-5.jpg'
-                ],
-                dataimgori: [
-                    'https://i.ibb.co/tHrxBx7/rop11-ori-1.jpg',
-                    'https://i.ibb.co/BBHsjrD/rop11-ori-2.jpg',
-                    'https://i.ibb.co/n8Ss8rS/rop11-ori-3.jpg',
-                    'https://i.ibb.co/JnSJRRn/rop11-ori-4.jpg',
-                    'https://i.ibb.co/8B4PyxR/rop11-ori-5.jpg'
-
                 ]
             },
             {
@@ -787,6 +742,403 @@ export const marcas_data = [
                     'https://i.ibb.co/yhzgbQk/jus04-ori-3.jpg'
                 ]
             },
+            {
+                id: 'cam5',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/gwBJq9v/jus05-red-1.jpg',
+                detalle: 'Camiseta de cuello redondo con bloques de color',
+                talla: 'S (7/8) - M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/gwBJq9v/jus05-red-1.jpg',
+                    'https://i.ibb.co/QH8SDrK/jus05-red-2.jpg',
+                    'https://i.ibb.co/CJf3H9b/jus05-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/Kx048qT/jus05-ori-1.jpg',
+                    'https://i.ibb.co/3s9Ws2g/jus05-ori-2.jpg',
+                    'https://i.ibb.co/7WgB9wt/jus05-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam6',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/FbtgHpt/jus06-red-1.jpg',
+                detalle: 'Camiseta con cuello redondo y teñido anudado',
+                talla: 'S (7/8) - M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/FbtgHpt/jus06-red-1.jpg',
+                    'https://i.ibb.co/NyTzntV/jus06-red-2.jpg',
+                    'https://i.ibb.co/b6VtWm0/jus06-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/wwtmX2h/jus06-ori-1.jpg',
+                    'https://i.ibb.co/L6gdfnw/jus06-ori-2.jpg',
+                    'https://i.ibb.co/x2KcwYv/jus06-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam7',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/kKJFcMg/jus07-red-1.jpg',
+                detalle: 'Camiseta de cuello redondo con bloques de color',
+                talla: 'M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/kKJFcMg/jus07-red-1.jpg',
+                    'https://i.ibb.co/0FL0Pg6/jus07-red-2.jpg',
+                    'https://i.ibb.co/CtTCdgz/jus07-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/X2C0VD7/jus07-ori-1.jpg',
+                    'https://i.ibb.co/wcPsd0V/jus07-ori-2.jpg',
+                    'https://i.ibb.co/k0YHg26/jus07-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam8',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/mD5g7yw/jus08-red-1.jpg',
+                detalle: 'Camiseta estampada de manga corta',
+                talla: 'M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/mD5g7yw/jus08-red-1.jpg',
+                    'https://i.ibb.co/99PKFWH/jus08-red-2.jpg',
+                    'https://i.ibb.co/2MBPcm3/jus08-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/41D1ZqG/jus08-ori-1.jpg',
+                    'https://i.ibb.co/LZjqdmC/jus08-ori-2.jpg',
+                    'https://i.ibb.co/qMh8fVz/jus08-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam9',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/9vGRkPN/jus09-red-1.jpg',
+                detalle: 'Camiseta estampada con cuello redondo',
+                talla: 'L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/9vGRkPN/jus09-red-1.jpg',
+                    'https://i.ibb.co/n7jHvdN/jus09-red-2.jpg',
+                    'https://i.ibb.co/0Bp5Mr0/jus09-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/HKvFk6L/jus09-ori-1.jpg',
+                    'https://i.ibb.co/0h6R6FG/jus09-ori-2.jpg',
+                    'https://i.ibb.co/hCCDfZw/jus09-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam10',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/09Ph7d6/jus10-red-1.jpg',
+                detalle: 'Camiseta gráfica con lazo al frente y lazo para el cabello',
+                talla: 'S (7/8)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/09Ph7d6/jus10-red-1.jpg',
+                    'https://i.ibb.co/6sjZwx3/jus10-red-2.jpg',
+                    'https://i.ibb.co/fxcZgxc/jus10-red-3.jpg',
+                    'https://i.ibb.co/HdHgtk0/jus10-red-4.jpg',
+                    'https://i.ibb.co/DpFfBgC/jus10-red-5.jpg',
+                    'https://i.ibb.co/7jCD4cw/jus10-red-6.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/c8mTZLG/jus10-ori-1.jpg',
+                    'https://i.ibb.co/yFcKp0w/jus10-ori-2.jpg',
+                    'https://i.ibb.co/SP259Vc/jus10-ori-3.jpg',
+                    'https://i.ibb.co/yPnn867/jus10-ori-4.jpg',
+                    'https://i.ibb.co/QM05HMF/jus10-ori-5.jpg',
+                    'https://i.ibb.co/Z63XMX4/jus10-ori-6.jpg'
+                ]
+            },
+            {
+                id: 'cam11',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/GHdYnd7/jus11-red-1.jpg',
+                detalle: 'Camiseta gráfica cruzada al frente',
+                talla: 'S (7/8)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/GHdYnd7/jus11-red-1.jpg',
+                    'https://i.ibb.co/QKhwry3/jus11-red-2.jpg',
+                    'https://i.ibb.co/Cst7C8f/jus11-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/fYHg69P/jus11-ori-1.jpg',
+                    'https://i.ibb.co/1ZF0V7X/jus11-ori-2.jpg',
+                    'https://i.ibb.co/4PWRBnC/jus11-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam12',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/k3Rv3ms/jus12-red-1.jpg',
+                detalle: 'Camiseta deportiva con gráfico Ringer',
+                talla: 'M (10) - L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/k3Rv3ms/jus12-red-1.jpg',
+                    'https://i.ibb.co/vhH7j9v/jus12-red-2.jpg',
+                    'https://i.ibb.co/TRYFMYq/jus12-red-3.jpg',
+                    'https://i.ibb.co/mbBCK9r/jus12-red-4.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/tX3jnVp/jus12-ori-1.jpg',
+                    'https://i.ibb.co/BChYzfN/jus12-ori-2.jpg',
+                    'https://i.ibb.co/zxfvM1X/jus12-ori-3.jpg',
+                    'https://i.ibb.co/1X8vYVZ/jus12-ori-4.jpg'
+                ]
+            },
+            {
+                id: 'cam13',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/HYyTYKG/jus13-red-1.jpg',
+                detalle: 'Camiseta sin mangas a capas con gráfico de Collection X by Justice',
+                talla: 'L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/HYyTYKG/jus13-red-1.jpg',
+                    'https://i.ibb.co/hB3KmhW/jus13-red-2.jpg',
+                    'https://i.ibb.co/s5RWFXY/jus13-red-3.jpg',
+                    'https://i.ibb.co/L02q9J9/jus13-red-4.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/dWcK1kz/jus13-ori-1.jpg',
+                    'https://i.ibb.co/F0Y9x9D/jus13-ori-2.jpg',
+                    'https://i.ibb.co/RPkxnGH/jus13-ori-3.jpg',
+                    'https://i.ibb.co/FnDjdpH/jus13-ori-4.jpg'
+                ]
+            },
+            {
+                id: 'cam14',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/G5SYW2M/jus14-red-1.jpg',
+                detalle: 'Camiseta sin mangas J Sport Graphic a capas Blanco',
+                talla: 'M (10) - S (7/8)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/G5SYW2M/jus14-red-1.jpg',
+                    'https://i.ibb.co/HzzgyTY/jus14-red-2.jpg',
+                    'https://i.ibb.co/LS8XLX8/jus14-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/8zxxwpY/jus14-ori-1.jpg',
+                    'https://i.ibb.co/HnL7Lmw/jus14-ori-2.jpg',
+                    'https://i.ibb.co/ZK2Nv4k/jus14-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'cam15',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/DDz32Q7/jus15-red-1.jpg',
+                detalle: 'Camiseta sin mangas J Sport Graphic a capas Plomo',
+                talla: 'M (10) - L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/DDz32Q7/jus15-red-1.jpg',
+                    'https://i.ibb.co/pxB4fND/jus15-red-2.jpg',
+                    'https://i.ibb.co/pRZj7Nf/jus15-red-3.jpg',
+                    'https://i.ibb.co/J2KXt6P/jus15-red-4.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/VCTcp7T/jus15-ori-1.jpg',
+                    'https://i.ibb.co/Zc52sSL/jus15-ori-2.jpg',
+                    'https://i.ibb.co/18WWryY/jus15-ori-3.jpg',
+                    'https://i.ibb.co/VJJYpwF/jus15-ori-4.jpg'
+                ]
+            },
+            {
+                id: 'cam16',
+                categoria: 'Camiseta',
+                imagen: 'https://i.ibb.co/tmLsShr/jus16-red-1.jpg',
+                detalle: 'Camiseta sin mangas J Sport Graphic a capas Gris',
+                talla: 'M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/tmLsShr/jus16-red-1.jpg',
+                    'https://i.ibb.co/vmYDtJJ/jus16-red-2.jpg',
+                    'https://i.ibb.co/cDzR9Jb/jus16-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/Fg70NZV/jus16-ori-1.jpg',
+                    'https://i.ibb.co/1n1vyvp/jus16-ori-2.jpg',
+                    'https://i.ibb.co/Xt1DZNm/jus16-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg1',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/yVQhs8f/leg01-red-1.jpg',
+                detalle: 'Leggings de largo completo con gráficos deportivos',
+                talla: 'M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/yVQhs8f/leg01-red-1.jpg',
+                    'https://i.ibb.co/VtyXZJN/leg01-red-2.jpg',
+                    'https://i.ibb.co/Hx254Sj/leg01-red-3.jpg',
+                    'https://i.ibb.co/TRYFMYq/jus12-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/ZN7VFTd/leg01-ori-1.jpg',
+                    'https://i.ibb.co/r3VMZKg/leg01-ori-2.jpg',
+                    'https://i.ibb.co/5WCC7Fr/leg01-ori-3.jpg',
+                    'https://i.ibb.co/zxfvM1X/jus12-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg2',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/ydZGb5r/leg02-red-1.jpg',
+                detalle: 'Leggings largos con logotipo de Justice',
+                talla: 'L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/ydZGb5r/leg02-red-1.jpg',
+                    'https://i.ibb.co/dMrdqKF/leg02-red-2.jpg',
+                    'https://i.ibb.co/R2qVHCS/leg02-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/7t45jH4/leg02-ori-1.jpg',
+                    'https://i.ibb.co/FsNrSh4/leg02-ori-2.jpg',
+                    'https://i.ibb.co/cv31n4d/leg02-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg3',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/qk1RxPc/leg03-red-1.jpg',
+                detalle: 'Leggings largos estampados',
+                talla: 'M (10)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/qk1RxPc/leg03-red-1.jpg',
+                    'https://i.ibb.co/L0tXmpy/leg03-red-2.jpg',
+                    'https://i.ibb.co/ws2jYz1/leg03-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/CPhHT2P/leg03-ori-1.jpg',
+                    'https://i.ibb.co/4RwL39D/leg03-ori-2.jpg',
+                    'https://i.ibb.co/fpyYVw2/leg03-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg4',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/hWHP8tR/leg04-red-1.jpg',
+                detalle: 'Leggings de largo completo con corte entrecruzado',
+                talla: 'M (10) - L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/hWHP8tR/leg04-red-1.jpg',
+                    'https://i.ibb.co/0KRFDpL/leg04-red-2.jpg',
+                    'https://i.ibb.co/m0Mpntz/leg04-red-3.jpg',
+                    'https://i.ibb.co/2YwQTW7/leg04-red-4.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/JrGSQ17/leg04-ori-1.jpg',
+                    'https://i.ibb.co/bW18Q1d/leg04-ori-2.jpg',
+                    'https://i.ibb.co/PN86fQF/leg04-ori-3.jpg',
+                    'https://i.ibb.co/TWyHzcY/leg04-ori-4.jpg'
+                ]
+            },
+            {
+                id: 'leg5',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/JmL3MTJ/leg05-red-1.jpg',
+                detalle: 'Leggings largos con costuras en bloque de color',
+                talla: 'M (10) - L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/JmL3MTJ/leg05-red-1.jpg',
+                    'https://i.ibb.co/F87v12x/leg05-red-2.jpg',
+                    'https://i.ibb.co/QXqT2cB/leg05-red-3.jpg',
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/GVM234k/leg05-ori-1.jpg',
+                    'https://i.ibb.co/6P5tZ83/leg05-ori-2.jpg',
+                    'https://i.ibb.co/c8xmKbQ/leg05-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg7',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/sWJyLMS/leg07-red-1.jpg',
+                detalle: 'Leggings largos estampados camuflado Verde',
+                talla: 'L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/sWJyLMS/leg07-red-1.jpg',
+                    'https://i.ibb.co/Vtv5qQh/leg07-red-2.jpg',
+                    'https://i.ibb.co/WGtwZw8/leg07-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/sQ4sKrT/leg07-ori-1.jpg',
+                    'https://i.ibb.co/0mg8vz6/leg07-ori-2.jpg',
+                    'https://i.ibb.co/fxrHhMw/leg07-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg8',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/DYQTzrV/leg08-red-1.jpg',
+                detalle: 'Leggings largos estampados camuflado Multicolor',
+                talla: 'L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/DYQTzrV/leg08-red-1.jpg',
+                    'https://i.ibb.co/dbw5RzZ/leg08-red-2.jpg',
+                    'https://i.ibb.co/xg26CPB/leg08-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/MndhVK7/leg08-ori-1.jpg',
+                    'https://i.ibb.co/mR50XkJ/leg08-ori-2.jpg',
+                    'https://i.ibb.co/mqcxDKN/leg08-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg9',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/jHmp6fR/leg09-red-1.jpg',
+                detalle: 'Leggings cortos recortados Gris',
+                talla: 'L (12/14)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/jHmp6fR/leg09-red-1.jpg',
+                    'https://i.ibb.co/CBCQ161/leg09-red-2.jpg',
+                    'https://i.ibb.co/WBqLPm8/leg09-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/zS8F6MK/leg09-ori-1.jpg',
+                    'https://i.ibb.co/dJrxYJF/leg09-ori-2.jpg',
+                    'https://i.ibb.co/9qNzXQt/leg09-ori-3.jpg'
+                ]
+            },
+            {
+                id: 'leg10',
+                categoria: 'Leggings',
+                imagen: 'https://i.ibb.co/Cw33HZ9/leg10-red-1.jpg',
+                detalle: 'Leggings de cuerpo entero con bloques de colores brillantes',
+                talla: 'L (12/14) - XL (16/18)',
+                precio: '',
+                dataimgred: [
+                    'https://i.ibb.co/Cw33HZ9/leg10-red-1.jpg',
+                    'https://i.ibb.co/3FR8w1J/leg10-red-2.jpg',
+                    'https://i.ibb.co/KGjnWGH/leg10-red-3.jpg',
+                    'https://i.ibb.co/s5RWFXY/jus13-red-3.jpg'
+                ],
+                dataimgori: [
+                    'https://i.ibb.co/2qQm95g/leg10-ori-1.jpg',
+                    'https://i.ibb.co/Hqk31cQ/leg10-ori-2.jpg',
+                    'https://i.ibb.co/s9CXWwV/leg10-ori-3.jpg',
+                    'https://i.ibb.co/RPkxnGH/jus13-ori-3.jpg'
+                ]
+            },
+
 
 
         ]
