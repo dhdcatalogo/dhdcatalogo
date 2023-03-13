@@ -23,7 +23,7 @@ export const marcas_data = [
                     {
                         id: 0,
                         imagen: 'https://i.ibb.co/YhYhJ3W/mac01-red-1.jpg'  ,
-                        titulo: 'Macbook Pro 16\' [2019]',
+                        titulo: 'Macbook Pro 16\' (2019)',
                         caracteristicas: [
                             ['✅ Modelo: ','12345sm67890'],
                             ['✅ Procesador: ','1234567890'],
@@ -60,7 +60,7 @@ export const marcas_data = [
                     {
                         id: 0,
                         imagen: 'https://i.ibb.co/YhYhJ3W/mac01-red-1.jpg'  ,
-                        titulo: 'Macbook Pro 16\' [2019]',
+                        titulo: 'Macbook Pro 16\' (2019)',
                         caracteristicas: [
                             ['✅ Modelo: ','12345sm67890'],
                             ['✅ Procesador: ','1234567890'],

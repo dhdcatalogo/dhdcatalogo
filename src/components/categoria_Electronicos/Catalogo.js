@@ -34,7 +34,7 @@ function Categoria(props) {
     return (
         <div className="row" key={'ite'}>
             {categorias.map((cat) => (
-                <CardItem key={cat.id} id={cat.id} imagen={cat.imagen} detalle={cat.detalle} precio={cat.precio} ruta={props.ruta} />
+                <CardItem key={cat.id} id={cat.id} imagen={cat.imagen} titulo={cat.titulo} precio={cat.precio} ruta={props.ruta} />
             ))}
         </div>
     );
@@ -48,7 +48,7 @@ function CardItem(props) {
                 <div className="containerImg">
                     <img className='imgPro' src={props.imagen} />
                     <div className="degrade"></div>
-                    <div className="descrip">{props.detalle}</div>
+                    <div className="descrip">{props.titulo}</div>
                 </div>
                 <div className="price">Bs. {props.precio} BOB </div>
             </Link>
