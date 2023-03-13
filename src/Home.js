@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom';
 import './app.css';
 
 export default function Home() {
+    const cn = 'col-12 col-md-6 col-lg-6'
     return (
         <div className="container mt-3 ">
             <div className="row">
-                <div className='col-12'>
+                <div className={cn}>
                     <Link className='link-home' to="/ropa">
                         <div className='title'>👚 👕 Ropa 👕 👚</div>
                         <div className='row ms-3 mb-3'>
@@ -16,7 +17,7 @@ export default function Home() {
                         </div>
                     </Link>
                 </div>
-                <div className='col-12'>
+                <div className={cn}>
                     <Link className='link-home' to="/electronicos">
                         <div className='title'>📱 💻 Electrónicos 💻 📱</div>
                         <div className='row ms-3 mb-3'>
@@ -27,7 +28,7 @@ export default function Home() {
                         </div>
                     </Link>
                 </div>
-                <div className='col-12'>
+                <div className={cn}>
                     <Link className='link-home' to="/otros">
                         <div className='title'>👟 📦 Otros 📦 👟</div>
                         <div className='row ms-3'>

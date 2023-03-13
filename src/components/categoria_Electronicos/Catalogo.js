@@ -41,7 +41,7 @@ function Categoria(props) {
 }
 
 function CardItem(props) {
-    const ruta = '/ropa/' + props.ruta + '/' + props.id;
+    const ruta = '/electronicos/' + props.ruta + '/' + props.id;
     return (
         <div className="col-lg-2 col-md-3 col-6" key={props.id}>
             <Link className="link" to={ruta}>

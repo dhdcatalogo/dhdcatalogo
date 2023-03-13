@@ -1,0 +1,18 @@
+.marcas {
+    background-color: #e9e9e9;
+    border-radius: 1rem;
+}
+.imagen-marca{
+    width: 150px;
+}
+@media (max-width:400px){
+    .imagen-marca{
+        width: 120px;
+    }
+}
+
+@media (max-width:280px){
+    .imagen-marca{
+        width: 90px;
+    }
+}

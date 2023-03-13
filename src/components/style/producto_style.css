@@ -10,26 +10,22 @@
     
 }
 
-.detalle{
+.titulo{
     align-items: center;
     justify-self: center;
     font-size: x-large;
-    font-weight: bold;
+    font-weight: bold;  
+}
+
+.caracteristicas{
+    font-size: large;
+    padding-left: .5rem;
+    padding-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .datos{
     display: flex;
-}
-
-.talla{
-    background-color: black;
-    color: aliceblue;
-    font-size: medium;
-    font-weight: bold;
-    max-width: fit-content;
-    padding: 5px 15px;
-    border-radius: 10rem;
 }
 
 .precio{
@@ -38,12 +34,16 @@
     font-size: medium;
     font-weight: bold;
     max-width: fit-content;
-    margin: 0 1rem;
     padding: 5px 15px;
     border-radius: 10rem;
 }
 
-
+.categoria{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 .contenedor-pro{

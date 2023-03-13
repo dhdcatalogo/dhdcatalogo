@@ -15,8 +15,8 @@ export default function Producto() {
     const v = marcas_data[i1].lista_categorias[i2].lista_productos[i3]
     return (
         <Imagen
-            detalle={v.detalle}
-            talla={v.talla}
+            titulo={v.titulo}
+            caracteristicas={v.caracteristicas}
             precio={v.precio}
             dataimgred={v.dataimgred}
             dataimgori={v.dataimgori}
@@ -25,14 +25,20 @@ export default function Producto() {
 }
 
 function Imagen(props) {
+    const [caracteristicas, seCaracteristicas] = useState([]);
+    useEffect(() => { seCaracteristicas(props.caracteristicas) }, [])
     return (
         <>
             <section className="section-pro">
                 <div className="contenedor-detalles">
-                    <div className="detalle">{props.detalle}</div>
+                    <div className="titulo">{props.titulo}</div>
+                    <div className="caracteristicas">
+                        {caracteristicas.map((carac)=>(
+                            <div key={carac[0]}><span className="fw-bolder">{carac[0]}</span><span>{carac[1]}</span></div>
+                        ))}
+                    </div>
                     <div className="datos">
-                        <div className="talla">Tallas: {props.talla}</div>
-                        <div className="precio">Bs: {props.precio} BOB</div>
+                        <div className="precio">$ {props.precio} </div>
                     </div>
                 </div>
 
@@ -51,9 +57,5 @@ function Imagen(props) {
 }
 
 function Dataimgredori(props) {
-
-
-    const a = '<>hola</>'
-
-    return (a);
+    
 }

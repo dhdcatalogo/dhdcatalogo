@@ -5,6 +5,10 @@
 .link {
     text-decoration: none;
 }
+.link-imagen{
+    width: 120px;
+    height: auto;
+}
 
 .containerImg {
     position: relative;
